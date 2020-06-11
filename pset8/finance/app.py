@@ -37,6 +37,9 @@ Session(app)
 db = SQL("sqlite:///finance.db")
 # db = sqlite3.connect('finance.db')
 
+# Creating users
+db.execute("CREATE TABLE IF NOT EXISTS 'users' ('id' INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, 'nickname' TEXT NOT NULL, 'username' TEXT NOT NULL, 'hash' TEXT NOT NULL)")
+
 bought = 0
 sold = 0
 @app.route("/")
