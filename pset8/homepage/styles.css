@@ -1,0 +1,89 @@
+html{
+    padding: 0;
+    margin: 0;
+   -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+.main
+{
+    padding-top: 0.5rem;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background: url("https://lh3.googleusercontent.com/pw/ACtC-3dSNx68W1wViXWA_b3_yupSjFEesXLpi99ghHGn1XU0-e2IWsFSHyhBFEJCzu0voiJQIdAl-h7g9_LZVPUGHzUqvLj_cktk1VrYTIArLhHAYNRP3tbGrrXqXSTgLfpnnN7ENHjvnTJMu89PD6d452RKiQ=w1250-h937-no?authuser=0") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+ul
+{
+    margin: auto;
+    background-color: #B2BEC3;
+    opacity: 0.9;
+    padding: 0;
+    padding-left: 1rem;
+}
+
+li a{
+    color: white;
+}
+
+.intro
+{
+    display: flex;
+    height: 50%;
+    margin: 8% 0 0 5%;
+}
+.image
+{
+    width: 20%;
+    margin-right: 3%;
+}
+.image img
+{
+    width: 100%;
+    transform: scaleX(-1);
+    border: 5px solid #B2BEC3;
+
+}
+#borderChange
+{
+    margin-top: 1%;
+    margin-left: 30%;
+}
+
+h1{
+    margin-top: 2%;
+    text-align: center;
+}
+
+.btn-success {
+    display: block;
+    margin: auto;
+}
+
+.album
+{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.post
+{
+    width: 20%;
+}
+
+.post img {
+    width: 100%;
+    border: 5px solid #B2BEC3;
+}
+
+.post figcaption
+{
+    background-color: #B2BEC3;
+}
