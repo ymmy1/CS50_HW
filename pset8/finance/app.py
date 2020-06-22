@@ -38,7 +38,7 @@ db = SQL("sqlite:///finance.db")
 # db = sqlite3.connect('finance.db')
 
 # Creating users
-db.execute("CREATE TABLE IF NOT EXISTS 'users' ('id' INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, 'nickname' TEXT NOT NULL, 'username' TEXT NOT NULL, 'hash' TEXT NOT NULL)")
+db.execute("CREATE TABLE IF NOT EXISTS 'users' ('id' INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, 'nickname' TEXT NOT NULL, 'username' TEXT NOT NULL, 'hash' TEXT NOT NULL, 'cash' INTEGER NOT NULL DEFAULT 10000.00)")
 
 bought = 0
 sold = 0
